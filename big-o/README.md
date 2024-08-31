@@ -29,7 +29,9 @@
 1. Bem, para a sua informação, não é nenhuma delas. A Big O Notation da busca binária é O(log n), ou seja, ela não é nem constante, nem linear. Ela é logarítmica. Mas beleza, então em todos os casos que eu precise fazer uma busca, eu usaria uma busca binária? Não exatamente. Depende muito de quando você vai usar
 - Você percebeu que, por mais que tenhamos feito muitas operações, conseguimos reduzir mais de 100.000 passos para procurar um valor, certo? E isso é ótimo, mas é importante salientar que, em casos onde o Array é pequeno, a busca binária talvez não seja a melhor alternativa, pois consultaríamos índices que não são necessários e aplicaríamos uma quantidade e lógica bem superior se comparar com a lógica de iteração e comparação de um find.
 - Para demonstrar melhor, eu vou mostrar um gráfico:
-![[Pasted image 20240829201801.png]]
+
+![](./chart.png)
+
 - Este gráfico mostra a complexidade de tempo de diferentes algoritmos em função do tamanho do dado de entrada. E inicialmente, percebemos que, por mais que a notação O(log n) comece sendo mais complexa que a O(n), com o crescimento do número de passos, ela vai se tornando menos e menos complexa. 
 - Além disso, também é importante perceber que, apesar de eu ter falado apenas das notações O(1), O(n) e O(log n), existem várias outras notações, que inclusive nem sequer estão nesse gráfico. Mas no caso eu teria que decorar todas essas notações? Não exatamente, elas servem pra você ter uma ideia, mas em vários casos, haverão notações que se aplicam à sua lógica, como O(n * m), por exemplo.
 - Mas agora, a pergunta que não quer calar: Como eu usaria as Big O Notation para otimizar o meu código? Por mais que no início não seja muito fácil de como você pode aplicar o que você aprendeu, ao longo dessa saga eu planejo falar mais e mais sobre esses algoritmos e como usá-los. Inclusive, eu pretendo juntar sempre as sagas que eu for criando, para ser um conteúdo que se auto-completa, sabe? Eu acho que por mais que a frequência do canal seja de um vídeo por semana, se os vídeos se auto-completarem, eles farão sentido e terá sentido no atraso.
